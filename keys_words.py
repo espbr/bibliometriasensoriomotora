@@ -112,7 +112,7 @@ def main(reader, ano_inicial, ano_final):
 
 
 # Lista final (mais antiga)
-filename = 'scopus.csv'
+filename = 'key_words.csv'
 with open(filename) as f:
     reader_1 = csv.reader(f)
     header_row = next(reader_1)
@@ -122,7 +122,7 @@ with open(filename) as f:
 
 
 # Lista final (mais nova)
-filename = 'scopus.csv'
+filename = 'key_words.csv'
 with open(filename) as f:
     reader_2 = csv.reader(f)
     header_row = next(reader_2)
